@@ -1,0 +1,21 @@
+//Fonts
+@font-face {
+  font-family: 'Custom-Fonts';
+  src: url('assets/fonts/custom-fonts.woff') format('woff');
+}
+
+.main-app-section-xs {
+  margin-top: 12px;
+}
+.main-app-section-sm {
+  margin-top: 24px;
+}
+.main-app-section-md {
+  margin-top: 36px;
+}
+.main-app-section-lg {
+  margin-top: 48px;
+}
+.main-app-section-xl {
+  margin-top: 72px;
+}

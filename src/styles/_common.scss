@@ -1,0 +1,156 @@
+body {
+    font-family: $primary_fonts;
+    background: $primary_background;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+a {
+  color: $primary_color;
+
+  &:hover {
+    color: $primary_color;
+  }
+}
+
+.btn-custom {
+    color: $white_color;
+    background-color: $primary_color;
+    border-color: $primary_color;
+}
+
+.btn-secondary {
+    color: $gray_color;
+    background-color: $white_color;
+    border-color: $gray_color;
+}
+
+.btn-another {
+    color: $white_color;
+    background-color: $gray-color;
+    border-color: $gray_color;
+}
+.error-msg {
+    color: #a30015;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.hero-card {
+    border-radius: 0px!important;
+    border: 0px;
+}
+
+.card-img-overlay {
+    height: 400px;
+    margin-top: 120px;
+}
+
+.card-img {
+    height: 520px;
+}
+
+p {
+    line-height: 2;
+}
+
+.margin-top-100px {
+    margin-top: 100px;
+}
+
+.margin-bottom-24px {
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #6d7ed8;
+    border-color: #6d7ed8;
+}
+
+.btn-primary:hover {
+    background-color: #6d7ed8;
+    border-color: #6d7ed8;
+}
+
+.btn-outline-primary {
+    border-color: #6d7ed8;
+    color: #6d7ed8;
+}
+
+.btn-outline-primary:hover  {
+    border-color: #6d7ed8!important;
+    background-color: #6d7ed8!important;
+    color: #ffffff!important;
+}
+
+
+.btn-outline-primary:active  {
+    border-color: #6d7ed8!important;
+    background-color: #6d7ed8!important;
+    color: #ffffff!important;
+}
+
+.home-page {
+    margin-top: 0px;
+    background: #ffffff;
+}
+
+.text-primary-custom {
+    color: #6d7ed8;   
+}
+
+.rounded-circle {
+    height: 360px;
+    width: 360px;
+}
+.align-custom-item {
+    text-align: center;
+}
+
+@media all and (max-width: 1280px) {
+    .rounded-circle {
+        height: 280px;
+        width: 280px;
+        margin-bottom: 64px;
+    }
+}
+
+@media all and (max-width: 480px) { 
+    .custom-container {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    } 
+    .card-img-overlay {
+        height: 400px;
+    }
+    .card-img-overlay .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .card-img-overlay .display-3 {
+        font-size: 44px;
+    }
+
+    .card-img-overlay h2 {
+        font-size: 24px;
+    }
+    .rounded-circle {
+        height: 280px;
+        width: 280px;
+        margin-bottom: 64px;
+    }
+    .custom-padding {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .align-custom-item {
+        text-align: left;
+    }
+}
